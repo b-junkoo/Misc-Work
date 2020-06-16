@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jun  5 16:32:48 2020
-
+Finds the longest string in alphabetical order within a random string
 @author: Jun
 """
 word = ''
