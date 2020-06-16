@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun  5 16:32:48 2020
+
+@author: Jun
+"""
+word = ''
+list = []
+s = 'ucxmlsyuvljgipdb'
+for ind in range(len(s)-1):
+    if s[ind] <= s[ind+1]:
+        word += s[ind]
+    if s[ind] > s[ind + 1]:
+        word += s[ind]
+        list += [word]
+        word = ''
+    if len(s) - (ind+1) == 1:
+        if s[ind] <= s[len(s)-1]:
+            word += s[ind + 1]
+            list += [word]
+print("Longest substring in alphabetical order is:", max(list, key = len))
+    
+
+     
+       
+ 
+    
+
+ 
+        
+    
+        
+
