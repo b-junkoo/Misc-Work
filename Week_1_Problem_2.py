@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jun  5 16:32:48 2020
-
+Finds the number of 'bob' strings in a string, s
 @author: Jun
 """
 count = 0
