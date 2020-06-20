@@ -3,7 +3,7 @@
 Created on Fri Jun 19 12:23:32 2020
 
 Calculates the fixed monthly payment needed to pay off credit card balance
-within 12 months
+within 12 months and prints the result.
 
 Inputs:
     balance: outstanding balance on credit card
