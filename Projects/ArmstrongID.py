@@ -2,11 +2,10 @@
 """
 Created on Fri Jun 19 21:07:15 2020
 
-Checks to see if number input is an Armstrong number
+Checks to see if number input is an Armstrong number and prints the result
 
 @author: Jun
 """
-
 def armstrong(num):
     num = str(num)
     if len(num) == 1:
@@ -19,4 +18,3 @@ def armstrong(num):
             print(num, "is an Armstrong number.")
         else:
             print(num, "is not Armstrong number.")
-armstrong(1634)
