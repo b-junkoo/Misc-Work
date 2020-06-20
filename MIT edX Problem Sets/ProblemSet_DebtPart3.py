@@ -2,7 +2,8 @@
 """
 Created on Fri Jun 19 13:26:46 2020
 
-Uses bisection search to return a fixed monthly payment to pay off debt in 12 months
+Uses bisection search to return a fixed monthly payment to pay off debt in 12 months and prints the result with a margin of error
+of 0.01 cents
 
 @author: Jun
 """
