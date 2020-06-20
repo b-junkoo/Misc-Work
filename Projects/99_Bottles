@@ -1,0 +1,24 @@
+"""
+Created on Fri Jun 19 19:12:53 2020
+
+Prints the song 99 bottles
+
+@author: Jun
+"""
+Bottles = 99
+while Bottles != 0:
+    s1 = 's '
+    s2 = s1
+    one_less = Bottles - 1
+    if Bottles == 2:
+        s2 = ' '
+    elif Bottles == 1:
+        s1 = s2
+        one_less = 'No more'
+        s2 = 's '
+    print("{} bottle{}of beer on the wall, {} bottle{}of beer.\
+ Take one down and pass it around, {} bottle{}of beer on the wall.".format(Bottles, s1, Bottles, s1, one_less, s2))
+    Bottles -= 1
+    
+print("No more bottles of beer on the wall, no more bottles of beer.\
+ Go to the store and buy some more, 99 bottles of beer on the wall")
