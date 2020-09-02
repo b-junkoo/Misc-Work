@@ -1,5 +1,5 @@
-# School-Work
-Scripts I made for school work and other learning sources
+# Misc Work
+Scripts I made for online learning sources
 
 Descriptions:
 
